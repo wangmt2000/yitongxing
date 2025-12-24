@@ -27,6 +27,27 @@
 ```
 
 ### 2. 运行程序
+
+    1 # 1. 创建虚拟环境
+    2 python -m venv venv
+    3
+    4 # 2. 激活虚拟环境
+    5 # Windows:
+    6 venv\Scripts\activate
+    7
+    8 # 3. 升级pip到最新版本
+    9 python -m pip install --upgrade pip
+   10
+   11 # 4. 使用清华大学镜像源安装依赖
+   12 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ PyMuPDF pypdf
+
+  然后您就可以运行您的程序了：
+
+   1 python "亿通行交通费发票整理.py" "11月发票"
+
+  当您完成工作后，可以退出虚拟环境：
+
+   1 deactivate
 运行 `亿通行交通费发票整理.py` 脚本，并在命令行提供目录名称参数：
 
 ```
