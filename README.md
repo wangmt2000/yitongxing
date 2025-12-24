@@ -36,7 +36,7 @@
      venv\Scripts\activate
     
      # 3. 升级pip到最新版本
-    python -m pip install --upgrade pip
+     python -m pip install --upgrade pip -i https://pypi.tuna.tsinghua.edu.cn/simple/
    
     # 4. 使用清华大学镜像源安装依赖
    pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ PyMuPDF pypdf
