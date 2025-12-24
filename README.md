@@ -27,7 +27,7 @@
 ```
 
 ### 2. 运行程序
-
+```
     1 # 1. 创建虚拟环境
     2 python -m venv venv
     3
@@ -40,6 +40,7 @@
    10
    11 # 4. 使用清华大学镜像源安装依赖
    12 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ PyMuPDF pypdf
+```   
 
   然后您就可以运行您的程序了：
 
