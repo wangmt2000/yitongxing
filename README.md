@@ -28,18 +28,18 @@
 
 ### 2. 运行程序
 ```
-    1 # 1. 创建虚拟环境
-    2 python -m venv venv
-    3
-    4 # 2. 激活虚拟环境
-    5 # Windows:
-    6 venv\Scripts\activate
-    7
-    8 # 3. 升级pip到最新版本
-    9 python -m pip install --upgrade pip
-   10
-   11 # 4. 使用清华大学镜像源安装依赖
-   12 pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ PyMuPDF pypdf
+    # 1. 创建虚拟环境
+    python -m venv venv
+    
+     # 2. 激活虚拟环境
+     # Windows:
+     venv\Scripts\activate
+    
+     # 3. 升级pip到最新版本
+    python -m pip install --upgrade pip
+   
+    # 4. 使用清华大学镜像源安装依赖
+   pip install -i https://pypi.tuna.tsinghua.edu.cn/simple/ PyMuPDF pypdf
 ```   
 
   然后您就可以运行您的程序了：
